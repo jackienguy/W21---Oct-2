@@ -1,0 +1,8 @@
+Start new project
+install and import mariadb, flask, cors
+Create a simple "Hello World" page at the server root
+create an endpoint 'fruit' that accepts GET, POST, UPDATE
+Create a string "FRUIT_NAMES and choose a fruit of your likeing 
+GET - returns a response with key 'fruitName' and the value of fruit_name 
+POST - checks if the received data had a key fruitname with a value that matches fruit_name
+UPDATE - returns a 503 code with a message about the endpoint being under maintenance 
